@@ -23,7 +23,14 @@ import floatingImage from './images/floating.png';
 // import lowployImage from './images/lowploy.png';
 import liveImage from './images/live.png';
 import ringImage from './images/ring.png';
-
+import first from './images/first.png'
+import s2 from './images/2.png';
+import s3 from './images/img3.png';
+import s4 from './images/img4.png';
+import s5 from './images/img5.png';
+import s6 from './images/img6.png';
+import s7 from './images/img7.png';
+import s8 from './images/img8.png';
 
 import './index.css';
 
@@ -36,10 +43,59 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const workList = [
   {
-    link: '#/human',
-    title: 'Metahuman',
-    description: '👦 元宇宙数字人类【⚠优化中】',
-    image: humanImage,
+    link: 'https://f1ixt.csb.app/',
+    title: '首页',
+    description: '首页 【⚠优化中】',
+    image: first,
+    three: true
+  },
+  {
+    link: 'https://mbfzf.csb.app/',
+    title: '云彩',
+    description: '云彩 【⚠优化中】',
+    image: s2,
+    three: true
+  },
+  {
+    link: 'https://5xho4.csb.app/',
+    title: '草原',
+    description: '草原 【⚠优化中】',
+    image: s3,
+    three: true
+  },
+  {
+    link: 'https://6hi1y.csb.app/',
+    title: '3D开关',
+    description: '3D开关【⚠优化中】',
+    image: s4,
+    three: true
+  },
+  {
+    link: 'https://sbf2i.csb.app/',
+    title: '动画数字',
+    description: '动画数字【⚠优化中】',
+    image: s5,
+    three: true
+  },
+  {
+    link: 'https://prb9t.csb.app/',
+    title: '动画房间',
+    description: '动画房间【⚠优化中】',
+    image: s6,
+    three: true
+  },
+  {
+    link: 'https://gkfhr.csb.app/#',
+    title: '黄昏',
+    description: '黄昏【⚠优化中】',
+    image: s7,
+    three: true
+  },
+  {
+    link: 'https://n60qg.csb.app/',
+    title: '3D鞋子',
+    description: '3D鞋子【⚠优化中】',
+    image: s8,
     three: true
   },
   {
@@ -78,24 +134,10 @@ const workList = [
     three: true
   },
   {
-    link: 'https://dragonir.github.io/3d-meta-logo/',
-    title: '脸书Meta元宇宙Logo',
-    description: '🪐 Three.js + Blender 实现炫酷的Facebook元宇宙Logo.',
-    image: metaImage,
-    three: true
-  },
-  {
     link: '#/lunar',
     title: '虎年春节创意',
     description: '🐅 2022虎虎生威！',
     image: lunarImage,
-    three: true
-  },
-  {
-    link: 'https://dragonir.github.io/3d-panoramic-vision/',
-    title: '全景侦探小游戏',
-    description: '🕵️‍ 使用Three.js全景功能实现侦探小游戏。',
-    image: panoramicImage,
     three: true
   },
   {
@@ -139,54 +181,7 @@ const workList = [
     description: '📷 林克【⚠优化中】',
     image: zeldaImage,
     three: true
-  },
-  {
-    link: '#/',
-    title: '远航：无尽的拉格朗日',
-    description: '开发中...',
-    image: developingImage,
-    three: true
-  },
-  {
-    link: '#/',
-    title: '探索：无人深空',
-    description: '开发中...',
-    image: developingImage,
-    three: true
-  },
-  {
-    link: '#/',
-    title: '着陆：失落的星球',
-    description: '开发中...',
-    image: developingImage,
-    three: true
-  },
-  {
-    link: '#/',
-    title: '航巡：迷失在黑洞',
-    description: '开发中...',
-    image: developingImage,
-    three: true
-  },
-  {
-    link: 'https://dragonir.github.io/h5-scan-qrcode/',
-    title: '浏览器扫码',
-    description: '📷 使用原生浏览器就可以在h5页面实现扫码功能了，试试看！',
-    image: scanImage,
-  },
-  {
-    link: 'https://dragonir.github.io/zelda-map/',
-    title: '塞尔达：旷野之息地图',
-    description: '🗺 在地图上标记神庙、查询回忆点！',
-    image: zeldaMapImage,
-  },
-  // {
-  //   link: '#/cityLowploy',
-  //   title: '低面数城市',
-  //   description: '🏙 3D数字城市 【⚠优化中】',
-  //   image: lowployImage,
-  //   three: true
-  // },
+  }
 ];
 
 export default class Home extends React.Component {
